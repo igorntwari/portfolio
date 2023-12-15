@@ -15,15 +15,15 @@ function StackPage() {
   return (
     <div className="px-8 text-white py-20">
       <h1 className="font-Manrope-bold text-3xl">stack</h1>
-      <p className="font-Manrope-thin">
+      <p className="font-Manrope-thin pt-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime non
         ducimus ut. Beatae, ipsam reiciendis vero dolorum alias incidunt
         corporis sunt cum similique maiores necessitatibus harum quae laboriosam
         ab hic?
       </p>
-      <div className="pt-10">
+      <div className="pt-10 text-[10px] sm:text-base">
           <h1 className="uppercase font-Manrope-extraBold">Front End tools</h1>
-        <div className="grid grid-cols-5 gap-6 py-6">
+        <div className="sm:grid sm:grid-cols-5 grid grid-cols-4 gap-6 py-6">
         <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
             <h1 className="font-Manrope-semiBold">Javascript</h1>
             <JsIcon className="h-[2rem] w-[2rem]" />
@@ -54,12 +54,12 @@ function StackPage() {
           </button>
         </div>
       </div>
-      <div className="pt-12">
+      <div className="pt-10 text-[10px] sm:text-base">
           <h1 className="uppercase font-Manrope-extraBold">back End tools</h1>
-        <div className="grid grid-cols-5 gap-4 py-6">
+        <div className="sm:grid sm:grid-cols-5 grid grid-cols-4 gap-6 py-6">
           <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
             <h1 className="font-Manrope-semiBold">Node js</h1>
-            <NodeIcon />
+            <NodeIcon className="h-[2rem] w-[2rem]"/>
           </button>       
           <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
             <h1 className="font-Manrope-semiBold">Nest js</h1>
@@ -75,7 +75,7 @@ function StackPage() {
           </button>
         </div>
       </div>
-       <h1 className="uppercase font-Manrope-Regular text-7xl flex justify-center pt-10 animate-bounce">let's connet</h1>
+       <h1 className="uppercase font-Manrope-Regular sm:text-7xl text-4xl    flex justify-center pt-10 animate-bounce">let's connect</h1>
     </div>
   );
 }
