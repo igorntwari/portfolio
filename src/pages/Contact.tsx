@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { toast } from "react-toastify";
 import emailjs from "emailjs-com";
 import XIcon from "../assets/icons/XIcon.jsx";
 import InstagramIcon from "../assets/icons/InstagramIcon.jsx";
@@ -29,7 +28,6 @@ function Contact() {
         (result) => {
           console.log("Success block executed:", result);
           console.log(result.text);
-          toast.success("Email successfully sent!");
           setFormData({
             first_name: "",
             second_Name: "",
@@ -40,7 +38,6 @@ function Contact() {
         (error) => {
           console.log("Error block executed:", error);
           console.log(error.text);
-          toast.error("Failed to send email");
         }
       );
   }
