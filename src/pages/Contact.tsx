@@ -61,8 +61,8 @@ function Contact() {
       </div>
       <div className="flex md:flex-row md:justify-between px-10 flex-col">
         <div className="flex flex-col md:gap-20 sm:gap-10 sm:text-base text-xs gap-6 py-4">
-          <h1>YOUR MESSAGE, MY WORDS – A PERFECT MATCH.</h1>
-          <h1>GET IN TOUCH: igorntwari28@gmail.COM.</h1>
+          <h1>Your  Message, My word – A Perfect Match.</h1>
+          <h1>Get In Touch: igorntwari28@gmail.COM.</h1>
           <h1 className="uppercase text-xl">find me on :</h1>
           <div className="flex gap-6">
             <a
