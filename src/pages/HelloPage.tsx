@@ -20,7 +20,7 @@ export default function HelloPage() {
         </h1>
         <h1 className="font-Manrope-bold sm:text-4xl lg:text-3xl text-2xl">
           I am{" "}
-          <span className="bg-gradient-to-r from-bg-primary  via-green-400 to-green-950 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-bg-primary via-green-400 to-green-950 text-transparent bg-clip-text">
             Full-Stack Developer
           </span>
         </h1>
