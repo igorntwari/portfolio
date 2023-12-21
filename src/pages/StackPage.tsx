@@ -10,10 +10,12 @@ import NestIcon from "../assets/icons/NestIcon";
 import MongoIcon from "../assets/icons/MongoIcon";
 import JsIcon from "../assets/icons/JsIcon";
 import PostgreIcon from "../assets/icons/PostgreIcon";
+import { useNavigate } from "react-router-dom";
 
 function StackPage() {
+  const navigate = useNavigate()
   return (
-    <div className="px-8 text-white py-20">
+    <div id="Stack" className="px-8 text-white py-20">
       <h1 className="font-Manrope-bold text-3xl">stack</h1>
       <p className="font-Manrope-thin pt-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime non
@@ -75,7 +77,7 @@ function StackPage() {
           </button>
         </div>
       </div>
-       <h1 className="uppercase font-Manrope-Regular sm:text-7xl text-4xl    flex justify-center pt-10 animate-bounce">let's connect</h1>
+       <h1 onClick={() =>navigate("/contact")} className="cursor-pointer uppercase font-Manrope-Regular sm:text-7xl text-4xl flex justify-center pt-10 animate-bounce">let's connect</h1>
     </div>
   );
 }
