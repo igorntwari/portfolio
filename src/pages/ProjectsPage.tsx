@@ -6,7 +6,7 @@ const ProjectsPages = () => {
       <h1 className="uppercase font-Manrope-Regular text-center py-10 md:text-7xl sm:text-5xl text-4xl">
         projects
       </h1>
-      <p className=" font-Manrope-medium text-center">
+      <p className="font-Manrope-medium text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
         eligendi velit aperiam quam libero ipsa <br />
         commodi eveniet maiores, distinctio praesentium tempore non laboriosam
