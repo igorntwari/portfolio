@@ -64,11 +64,11 @@ function StackPage() {
       <div className="pt-10 text-[10px] sm:text-base">
         <h1 className="uppercase font-Manrope-extraBold">back End tools</h1>
         <div className="sm:grid sm:grid-cols-5 grid grid-cols-4 gap-6 py-6">
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center">
             <h1 className="font-Manrope-semiBold">Node js</h1>
             <NodeIcon className="h-[2rem] w-[2rem]" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center">
             <h1 className="font-Manrope-semiBold">Nest js</h1>
             <NestIcon className="h-[2rem] w-[2rem]" />
           </button>
