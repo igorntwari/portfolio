@@ -13,20 +13,25 @@ import PostgreIcon from "../assets/icons/PostgreIcon";
 import { useNavigate } from "react-router-dom";
 
 function StackPage() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div id="Stack" className="px-8 text-white py-20">
       <h1 className="font-Manrope-bold text-3xl">stack</h1>
-      <p className="font-Manrope-thin pt-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime non
-        ducimus ut. Beatae, ipsam reiciendis vero dolorum alias incidunt
-        corporis sunt cum similique maiores necessitatibus harum quae laboriosam
-        ab hic?
+      <p className="font-Manrope-medium pt-4 leading-8">
+        "My development stack comprises JavaScript as the foundation,
+        strengthened by TypeScript for robustness. React and Vue.js enable
+        dynamic interfaces, complemented by Tailwind CSS for efficient styling.
+        On the backend, Node.js facilitates seamless server-client
+        communication. MongoDB and PostgreSQL handle data storage needs. Nest.js
+        organizes complex applications with its modular structure and TypeScript
+        support. This stack—JavaScript, TypeScript, React, Vue.js, Node.js,
+        Tailwind CSS, MongoDB, PostgreSQL, and Nest.js—empowers me to create
+        agile, scalable, and feature-rich applications.
       </p>
       <div className="pt-10 text-[10px] sm:text-base">
-          <h1 className="uppercase font-Manrope-extraBold">Front End tools</h1>
+        <h1 className="uppercase font-Manrope-extraBold">Front End tools</h1>
         <div className="sm:grid sm:grid-cols-5 grid grid-cols-4 gap-6 py-6">
-        <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
             <h1 className="font-Manrope-semiBold">Javascript</h1>
             <JsIcon className="h-[2rem] w-[2rem]" />
           </button>
@@ -57,12 +62,12 @@ function StackPage() {
         </div>
       </div>
       <div className="pt-10 text-[10px] sm:text-base">
-          <h1 className="uppercase font-Manrope-extraBold">back End tools</h1>
+        <h1 className="uppercase font-Manrope-extraBold">back End tools</h1>
         <div className="sm:grid sm:grid-cols-5 grid grid-cols-4 gap-6 py-6">
           <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
             <h1 className="font-Manrope-semiBold">Node js</h1>
-            <NodeIcon className="h-[2rem] w-[2rem]"/>
-          </button>       
+            <NodeIcon className="h-[2rem] w-[2rem]" />
+          </button>
           <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
             <h1 className="font-Manrope-semiBold">Nest js</h1>
             <NestIcon className="h-[2rem] w-[2rem]" />
@@ -77,7 +82,12 @@ function StackPage() {
           </button>
         </div>
       </div>
-       <h1 onClick={() =>navigate("/contact")} className="cursor-pointer uppercase font-Manrope-Regular sm:text-7xl text-4xl flex justify-center pt-10 animate-bounce">let's connect</h1>
+      <h1
+        onClick={() => navigate("/contact")}
+        className="cursor-pointer uppercase font-Manrope-Regular sm:text-7xl text-4xl flex justify-center pt-10 animate-bounce"
+      >
+        let's connect
+      </h1>
     </div>
   );
 }
