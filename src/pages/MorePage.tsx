@@ -1,7 +1,8 @@
+import React from "react";
 function MorePage() {
   return (
     <div>
-      <h1>hwllp</h1>
+     <h1>this is a review page</h1>
     </div>
   );
 }
