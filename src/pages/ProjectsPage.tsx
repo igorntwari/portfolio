@@ -1,7 +1,7 @@
 import React from "react";
 import skyper from "../assets/images/skyper.webp";
 import Pixel from "../assets/images/Pixel.jpg";
-import LPGFitness from '../assets/images/LPGFitness.png'
+import LPGFitness from "../assets/images/LPGFitness.png";
 import GithubIcon from "../assets/icons/GithubIcon";
 import MoreIcon from "../assets/icons/MoreIcon";
 import GlobalIcon from "../assets/icons/GlobalIcon";
@@ -129,7 +129,11 @@ const ProjectsPages = () => {
               >
                 <GithubIcon />
               </a>
-              <a href="#link" className="cursor-pointer">
+              <a
+                href="#link"
+                className="cursor-pointer"
+                onClick={() => navigate("/Reviews")}
+              >
                 <MoreIcon />
               </a>
             </div>

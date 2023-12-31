@@ -1,11 +1,12 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage.jsx';
-import HelloPage from './pages/HelloPage.tsx';
-import TestimonialsPage from './pages/TestimonialsPage.tsx'
-import StackPage from './pages/StackPage.tsx';
-import Contact from './pages/Contact.tsx';
-import Home from './components/Home';
-import ProjectsPages from './pages/ProjectsPage.tsx';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage.jsx";
+import HelloPage from "./pages/HelloPage.tsx";
+import TestimonialsPage from "./pages/TestimonialsPage.tsx";
+import StackPage from "./pages/StackPage.tsx";
+import Contact from "./pages/Contact.tsx";
+import Home from "./components/Home";
+import ProjectsPages from "./pages/ProjectsPage.tsx";
+import MorePage from "./pages/MorePage.tsx";
 function App() {
   return (
     <Router>
@@ -15,8 +16,9 @@ function App() {
         <Route path="/hello" element={<HelloPage />} />
         <Route path="/testimonials" element={<TestimonialsPage />} />
         <Route path="/stack" element={<StackPage />} />
-        <Route path="/contact" element = {<Contact />} />
-        <Route path='Project' element = {<ProjectsPages />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="Project" element={<ProjectsPages />} />
+        <Route path="/Reviews" element={<MorePage />} />
       </Routes>
     </Router>
   );
