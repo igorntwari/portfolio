@@ -1,5 +1,7 @@
 import React from "react";
 import image_33 from "../assets/images/image_33.jpg";
+import Pixel from '../assets/images/Pixel.jpg'
+import skyper from '../assets/images/skyper.webp'
 import LocationIcon from "../assets/icons/LocationIcon";
 import SlideIcon from "../assets/icons/SlideIcon";
 import Dropdown from "./Dropdown.tsx";
@@ -39,7 +41,8 @@ export default function HelloPage() {
       <div className="flex justify-between items-center">
         <h1 className="lg:flex lg:gap-2 md:flex sm:gap-2 md:text-xs md:gap-2 sm:flex sm:items-center flex gap-2">
           <LocationIcon />
-          Kigali, Rwanda
+          <a href="https://www.google.com/maps/place/Kigali,+Rwanda" className="cursor-pointer" target="_blank" rel="noreferrer">Kigali, Rwanda</a>
+
         </h1>
         <span className="h-[1px] bg-white lg:w-[26rem] md:w-[25rem] sm:w-[15rem]" />
         <button
@@ -53,36 +56,36 @@ export default function HelloPage() {
       <h1 id="Project" className="font-Manrope-Regular py-10">
         Recent Projects
       </h1>
-      <div className="sm:flex sm:gap-10 sm:flex-row flex flex-col gap-10">
-        <div className="bg-zinc-800 rounded-xl flex flex-col gap-2">
-          <img className="object-contain" src={image_33} alt="projectImage" />
+      <div className="grid sm:grid-cols-2 gap-10">
+        <div className="bg-zinc-800 rounded-xl grid grid-rows-3 gap-2">
+          <img className="row-span-2 object-cover w-full h-full"  src={Pixel} alt="project-2" />
           <div className="flex justify-between px-4 items-center">
             <div className="flex flex-col gap-2">
               <h1 className="font-Manrope-Regular text-green-700 text-sm sm:text-xl">
-                App Design
+                Pixelo Agency
               </h1>
-              <h1 className="font-Manrope-Regular sm:text-xl text-xs">
-                Team Wave In React Router
+              <h1 className="font-Manrope-Regular sm:text-sm text-xs">
+              Ready to take your Business Growth to the next level
               </h1>
             </div>
             <div className="overflow-hidden">
-              <SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" />
+              <a href="https://pixelo-agency.vercel.app/" target="_blank" rel="noreferrer"><SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" /></a>
             </div>
           </div>
         </div>
-        <div className="bg-zinc-800 rounded-xl flex flex-col gap-2">
-          <img className="object-contain" src={image_33} alt="projectImage" />
+        <div className="bg-zinc-800 rounded-xl grid grid-rows-3 gap-2">
+          <img className="row-span-2 object-cover w-full h-full"  src={skyper} alt="projectImage" />
           <div className="flex justify-between px-4 items-center">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col object-contain gap-2">
               <h1 className="font-Manrope-Regular text-green-700 text-sm sm:text-xl">
-                App Design
+                SKYPER
               </h1>
-              <h1 className="font-Manrope-Regular sm:text-xl text-xs">
-                Team Wave In React Router
+              <h1 className="font-Manrope-Regular sm:text-sm text-xs">
+                 E-commerce where the limit is the sky
               </h1>
             </div>
             <div className="overflow-hidden">
-              <SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" />
+              <a href="https://skyper.onrender.com/" target="_blank" rel="noreferrer"><SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" /></a>
             </div>
           </div>
         </div>

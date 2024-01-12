@@ -7,8 +7,8 @@ module.exports = {
         "bg-primary": "#00FF1A",
       },
       fontFamily: {
-        'Manrope-Regular': "Manrope-Regular",
-        'Manrope-bold': "Manrope-bold",
+        "Manrope-Regular": "Manrope-Regular",
+        "Manrope-bold": "Manrope-bold",
         "Manrope-extralight": "Manrope-ExtraLight",
         "Manrope-light": "Manrope-light",
         "Manrope-medium": "Manrope-medium",
