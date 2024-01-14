@@ -7,7 +7,7 @@ import MessageIcon from "../assets/icons/MessageIcon";
 import { useNavigate } from "react-router-dom";
 import { Fragment } from "react";
 import React from "react";
-import image_2 from "../assets/images/image_2.png";
+import igorn from "../assets/images/igorn.png";
 
 export default function Dropdown() {
   const navigate = useNavigate();
@@ -62,7 +62,7 @@ export default function Dropdown() {
             <div className="flex flex-col items-center justify-center">
               <img
                 className="pt-5 md:w-[300px] sm:w-[100px] w-[100px]"
-                src={image_2}
+                src={igorn}
                 alt="portfolio"
               />
               <button className="bg-bg-primary text-black  sm:w-[10rem] rounded-xl font-Manrope-extraBold border-2 border-green-200 mt-10 px-4">

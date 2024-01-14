@@ -1,5 +1,4 @@
 import React from "react";
-import image_33 from "../assets/images/image_33.jpg";
 import Pixel from '../assets/images/Pixel.jpg'
 import skyper from '../assets/images/skyper.webp'
 import LocationIcon from "../assets/icons/LocationIcon";

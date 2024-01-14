@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import image_2 from "../assets/images/image_2.png";
+import igorn from "../assets/images/igorn.png";
 import MessageIcon from "../assets/icons/MessageIcon";
 import HomeIcon from "../assets/icons/HomeIcon";
 import StackIcon from "../assets/icons/StackIcon";
@@ -14,7 +14,7 @@ export default function LandingPage() {
     <div className="fixed w-1/4 bg-zinc-950 text-white font-Manrope-Regular flex flex-col rounded-lg items-center gap-6 py-4 border-2 border-zinc-800 h-screen">
       <img
         className="pt-5 transition duration-300 ease-in-out transform hover:scale-150"
-        src={image_2}
+        src={igorn}
         width={100}
         alt="portfolio"
       />
