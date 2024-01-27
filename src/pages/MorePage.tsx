@@ -3,7 +3,7 @@ function MorePage() {
   return (
     <div className="bg-black text-white">
      <h1 className="font-Manrope-light text-center text-4xl uppercase h-screen">review page</h1>
-     <h1 className="">page will hold my review</h1>
+     <h1 className="font-Manrope-bold">page will hold my review</h1>
     </div>
   );
 }
