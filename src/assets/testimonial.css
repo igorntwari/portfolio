@@ -1,0 +1,21 @@
+.slider{
+    animation: sliding 10s infinite linear;
+}
+.slider2{
+    animation: sliding 10s infinite linear;
+}
+
+@keyframes sliding {
+    from {
+        transform: translateX(0);
+    } to {
+        transform: translateX(-220%);
+    }
+}
+@keyframes sliding2 {
+    from {
+        transform: translateX(0);
+    } to {
+        transform: translateX(-120%);
+    }
+}

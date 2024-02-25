@@ -18,7 +18,7 @@ function StackPage() {
     <div id="Stack" className="px-8 text-white py-20">
       <h1 className="font-Manrope-bold text-3xl">stack</h1>
       <p className="font-Manrope-medium pt-4 leading-8">
-        "My development stack comprises JavaScript as the foundation,
+        My development stack comprises JavaScript as the foundation,
         strengthened by TypeScript for robustness. React and Vue.js enable
         dynamic interfaces, complemented by Tailwind CSS for efficient styling.
         On the backend, Node.js facilitates seamless server-client
