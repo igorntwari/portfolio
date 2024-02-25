@@ -1,26 +1,21 @@
 import React from "react";
-import Ellipse from "../assets/images/Ellipse 4.jpg";
-import StarIcon from "../assets/icons/StarIcon";
-import '../assets/testimonial.css'
+import "../assets/testimonial.css";
 import TestimonialComponent from "../components/Testimonial";
-export default function TestimonialsPage() {
+
+export default function TestimonialPage() {
   return (
-    <div id="testimonial" className="text-white px-6 ">
-      <h1 className="uppercase text-center text-xl">testimonials</h1>
-      <article className="relative mb-96">
-      <section className="min-w-[200%] text-white grid grid-cols-4 gap-6 py-8 bg-black overflow-hidden bg-green-400 slider absolute top-0 left-0">
-        <TestimonialComponent/>
-        <TestimonialComponent/>
-        <TestimonialComponent/>
-        <TestimonialComponent/>
-      </section>
-      <section className="min-w-[200%] text-white grid grid-cols-4 gap-6 py-8 bg-black overflow-hidden bg-red-500 slider2 absolute top-0 left-[202%]">
-        <TestimonialComponent/>
-        <TestimonialComponent/>
-        <TestimonialComponent/>
-        <TestimonialComponent/>
-      </section>
-      </article>
-    </div>
+    <article>
+      <h1 className="text-center text-white font-Manrope-bold text-3xl mt-4 mb-8">
+        Testimonials
+      </h1>
+      <div className="slider text-white">
+        <div className="slide-track flex gap-4">
+          <TestimonialComponent />
+          <TestimonialComponent />
+          <TestimonialComponent />
+          <TestimonialComponent />
+        </div>
+      </div>
+    </article>
   );
 }
