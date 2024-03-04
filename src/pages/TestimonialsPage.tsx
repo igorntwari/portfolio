@@ -70,7 +70,7 @@ export default function TestimonialPage() {
   });
   return (
     <article ref={trigger} className="overflow-hidden">
-      <h1 className="text-center text-white font-Manrope-bold text-3xl mt-4 mb-8">
+      <h1 className="text-center text-white font-Manrope-bold text-3xl mt-4 mb-2">
         Testimonials
       </h1>
 
