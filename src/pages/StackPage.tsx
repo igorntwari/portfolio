@@ -30,55 +30,55 @@ function StackPage() {
       </p>
       <div className="pt-10 text-[10px] sm:text-base">
         <h1 className="uppercase font-Manrope-extraBold">Front End tools</h1>
-        <div className="sm:grid sm:grid-cols-5 grid grid-cols-4 gap-6 py-6">
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+        <div className="flex flex-wrap gap-2 md:gap-6 py-6">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 gap-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Javascript</h1>
-            <JsIcon className="h-[2rem] w-[2rem]" />
+            <JsIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 gap-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Tailwind</h1>
-            <TailwindIcon className="h-[2rem] w-[2rem]" />
+            <TailwindIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 gap-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Bootstrap</h1>
-            <Bootstrap className="h-[2rem] w-[2rem]" />
+            <Bootstrap className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 gap-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">React</h1>
-            <ReactIcon className="h-[2rem] w-[2rem]" />
+            <ReactIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 gap-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Tailwind</h1>
-            <TypescriptIcon className="h-[2rem] w-[2rem]" />
+            <TypescriptIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 gap-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Vue</h1>
-            <VueIcon className="h-[2rem] w-[2rem]" />
+            <VueIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 gap-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Next js</h1>
-            <NextjsIcon className="h-[2rem] w-[2rem]" />
+            <NextjsIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
         </div>
       </div>
       <div className="pt-10 text-[10px] sm:text-base">
         <h1 className="uppercase font-Manrope-extraBold">back End tools</h1>
-        <div className="sm:grid sm:grid-cols-5 grid grid-cols-4 gap-6 py-6">
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center">
+        <div className="flex gap-2 md:gap-6 flex-wrap py-6">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Node js</h1>
-            <NodeIcon className="h-[2rem] w-[2rem]" />
+            <NodeIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 w-[30%] sm:w-[20%] md:w-[13%]">
             <h1 className="font-Manrope-semiBold">Nest js</h1>
-            <NestIcon className="h-[2rem] w-[2rem]" />
+            <NestIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 w-[30%] sm:w-[20%] md:w-[13%] gap-1">
             <h1 className="font-Manrope-semiBold">Express</h1>
-            <MongoIcon className="h-[2rem] w-[2rem]" />
+            <MongoIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
-          <button className="bg-zinc-700 px-8 rounded-2xl border-2 border-lime-600 flex flex-col items-center gap-1">
+          <button className="bg-zinc-700 px-6 rounded-2xl border-2 border-lime-600 flex flex-col items-center py-1 w-[30%] sm:w-[20%] md:w-[13%] gap-1">
             <h1 className="font-Manrope-semiBold">PostgreSQL</h1>
-            <PostgreIcon className="h-[2rem] w-[2rem]" />
+            <PostgreIcon className="h-[2rem] w-[2rem] object-contain" />
           </button>
         </div>
       </div>

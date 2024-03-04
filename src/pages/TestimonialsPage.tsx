@@ -1,10 +1,14 @@
-import "../assets/testimonial.css";
-import React from "react";
+import React, { useRef } from "react";
 import TestimonialComponent from "../components/Testimonial.tsx";
 import arstide from "../assets/images/arstide.jpg";
 import eligrand from "../assets/images/eligrand.jpg";
 import lionel from "../assets/images/lionel.png";
 import junior from "../assets/images/junior.jpg";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 interface Testimonial {
   stars: number;
   description: string;
@@ -47,14 +51,31 @@ const testimonials: Testimonial[] = [
 ];
 
 export default function TestimonialPage() {
+  const trigger = useRef(null);
+  const slider = useRef(null);
+
+  useGSAP(() => {
+    const timeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: trigger.current,
+        start: "top 15%",
+        pin: true,
+        scrub: true,
+      },
+    });
+
+    timeline.to(slider.current, {
+      translateX: "-110%",
+    });
+  });
   return (
-    <article>
+    <article ref={trigger}>
       <h1 className="text-center text-white font-Manrope-bold text-3xl mt-4 mb-8">
         Testimonials
       </h1>
 
-      <div className="slider text-white">
-        <div className="slide-track flex gap-4">
+      <div className="text-white">
+        <div className="flex gap-4 max-w-full" ref={slider}>
           {testimonials.map((testimonial, index) => (
             <TestimonialComponent
               key={index}
