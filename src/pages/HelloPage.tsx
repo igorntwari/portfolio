@@ -1,6 +1,6 @@
 import React from "react";
-import Pixel from '../assets/images/Pixel.jpg'
-import skyper from '../assets/images/skyper.webp'
+import Pixel from "../assets/images/Pixel.jpg";
+import LPGFitness from "../assets/images/LPGFitness.png";
 import LocationIcon from "../assets/icons/LocationIcon";
 import SlideIcon from "../assets/icons/SlideIcon";
 import Dropdown from "./Dropdown.tsx";
@@ -40,8 +40,14 @@ export default function HelloPage() {
       <div className="flex justify-between items-center">
         <h1 className="lg:flex lg:gap-2 md:flex sm:gap-2 md:text-xs md:gap-2 sm:flex sm:items-center flex gap-2">
           <LocationIcon />
-          <a href="https://www.google.com/maps/place/Kigali,+Rwanda" className="cursor-pointer" target="_blank" rel="noreferrer">Kigali, Rwanda</a>
-
+          <a
+            href="https://www.google.com/maps/place/Kigali,+Rwanda"
+            className="cursor-pointer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kigali, Rwanda
+          </a>
         </h1>
         <span className="h-[1px] bg-white lg:w-[26rem] md:w-[25rem] sm:w-[15rem]" />
         <button
@@ -57,34 +63,55 @@ export default function HelloPage() {
       </h1>
       <div className="grid sm:grid-cols-2 gap-10">
         <div className="bg-zinc-800 rounded-xl grid grid-rows-3 gap-2">
-          <img className="row-span-2 object-cover w-full h-full"  src={Pixel} alt="project-2" />
+          <img
+            className="row-span-2 object-cover w-full h-full"
+            src={Pixel}
+            alt="project-2"
+          />
           <div className="flex justify-between px-4 items-center">
             <div className="flex flex-col gap-2">
               <h1 className="font-Manrope-Regular text-green-700 text-sm sm:text-xl">
                 Pixelo Agency
               </h1>
               <h1 className="font-Manrope-Regular sm:text-sm text-xs">
-              Ready to take your Business Growth to the next level
+                Ready to take your Business Growth to the next level
               </h1>
             </div>
             <div className="overflow-hidden">
-              <a href="https://pixelo-agency.vercel.app/" target="_blank" rel="noreferrer"><SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" /></a>
+              <a
+                href="https://pixelo-agency.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" />
+              </a>
             </div>
           </div>
         </div>
         <div className="bg-zinc-800 rounded-xl grid grid-rows-3 gap-2">
-          <img className="row-span-2 object-cover w-full h-full"  src={skyper} alt="projectImage" />
+          <img
+            className="row-span-2 object-cover w-full h-full"
+            src={LPGFitness}
+            alt="projectImage"
+          />
           <div className="flex justify-between px-4 items-center">
             <div className="flex flex-col object-contain gap-2">
               <h1 className="font-Manrope-Regular text-green-700 text-sm sm:text-xl">
-                SKYPER
+                LPG-Fitness
               </h1>
               <h1 className="font-Manrope-Regular sm:text-sm text-xs">
-                 E-commerce where the limit is the sky
+              a state-of-the-art fitness center dedicated to helping individuals achieve their health and fitness goals.
               </h1>
             </div>
             <div className="overflow-hidden">
-              <a href="https://skyper.onrender.com/" target="_blank" rel="noreferrer"><SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" /></a>
+            <a
+                href="https://lpg-fitness.vercel.app/#h"
+                target="_blank"
+                className="cursor-pointer"
+                rel="noreferrer"
+              >
+                <SlideIcon className="transition-all duration-500 ease-in-out transform hover:translate-x-1/3" />
+              </a>
             </div>
           </div>
         </div>
